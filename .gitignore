@@ -1,2 +1,8 @@
 # Ignore Firebase credentials
 src/config/firebaseConfig.json
+
+# Node modules
+node_modules
+
+# Build files
+dist
