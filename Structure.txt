@@ -1,0 +1,18 @@
+backend-repo/
+│── src/
+│   ├── config/                # 🔹 Configuration files (Firebase)
+│   │   ├── firebaseConfig.json  ❌ (Use .env instead)
+│   ├── services/              # 🔹 Firebase & Firestore logic
+│   │   ├── firebaseAdmin.js     # Firebase Admin SDK setup
+│   │   ├── testFirestore.js     # Firestore test script
+│   ├── routes/                # 🔹 API Routes
+│   │   ├── userRoutes.js        # User-related API endpoints
+│   ├── controllers/           # 🔹 Handles logic for API requests
+│   │   ├── userController.js    # Logic for fetching/updating users
+│   ├── middleware/            # 🔹 Authentication Middleware
+│   │   ├── authMiddleware.js    # Middleware for authentication
+│   ├── server.js              # 🔹 Main Express.js API file
+│── .env                       # 🔹 Environment variables (Firebase credentials)
+│── .gitignore                 # 🔹 Prevents sensitive files from being pushed
+│── package.json               # 🔹 Project dependencies & scripts
+│── README.md                  # 🔹 Project documentation
