@@ -13,3 +13,5 @@ logs
 
 # Compiled output
 dist
+
+Add-Content .gitignore "`nsrc/config/firebaseConfig.json"
