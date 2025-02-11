@@ -1,6 +1,12 @@
 {
+  "name": "backend-repo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/services/testFirestore.js"
+  },
   "dependencies": {
     "dotenv": "^16.4.7",
-    "firebase-admin": "^13.1.0"
+    "firebase-admin": "^11.11.1"
   }
 }
