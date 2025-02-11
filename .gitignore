@@ -1,0 +1,15 @@
+# Ignore Firebase credentials
+src/config/firebaseConfig.json
+
+# Node modules
+node_modules
+
+# Logs
+logs
+*.log
+
+# Environment variables
+.env
+
+# Compiled output
+dist
